@@ -1,0 +1,7 @@
+NrPulses = 300; Fs = 40000; IPI = 2Fs(rand(NrPulses,1))+Fs1; N = 2000; t = (1:N)(1/Fs); freq = 1000;
+
+sound_array = []; sound_pulse = sin(2pifreq*t).';
+
+for k = 1:NrPulses sound_array = [sound_array;zeros(ceil(IPI(k)),1);sound_pulse]; end
+
+sound(sound_array,Fs) audiowrite('AEPtone.wav',sound_array,Fs)
