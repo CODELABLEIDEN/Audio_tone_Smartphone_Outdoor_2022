@@ -17,3 +17,8 @@ FOOOF:  gatherEEGLIMOAUDIO_DataPool_Out_cwt_fooof
 
 
 The following code was used for performng second level one-sample-t-tests (Level 2)  : gatherfollowupOnesample_cwt_outdoor
+
+The following code was used for creating the result figures:
+CWT/FOOOF results: create_figure_spectralprops
+AEP results: create_figure_AEP
+Remaining individual figures: create_figure_other
