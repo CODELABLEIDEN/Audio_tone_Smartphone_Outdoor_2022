@@ -22,3 +22,16 @@ The following code was used for creating the result figures:
 CWT/FOOOF results: create_figure_spectralprops
 AEP results: create_figure_AEP
 Remaining individual figures: create_figure_other
+
+
+August 2022, Added the pre-processing steps: 
+
+1. Data filtering (0.1 to 70 Hz) and removing of bad channels according to impedence measurements (using getdataorganised.m, a multipurpose data organiser used within CODELAB)
+2. ICA was run using RUN_ICA.m
+3. The missing channels were imputed using, re-referenced to the average, and blinks removed using (gettechnicallycleanedEEG.m)
+4. For ERP analysis the data was further filtered between 0.1 and 45 Hz.
+
+
+
+
+August 2022, Added the additional codes used for welch method: 
