@@ -13,8 +13,9 @@ The following code was used for creating LIMO files for ERP (Level 1) : gatherEE
 
 The following code was used for creating LIMO files based on CWT (Level 1) (note, can take time and high (>180 GB) RAM workstation recommended): 
 CWT alone:  gatherEEGLIMOAUDIO_DataPool_Indoor_Out_cwt_network
-FOOOF:  gatherEEGLIMOAUDIO_DataPool_Out_cwt_fooof (was re-run for august revisions using: gatherEEGLIMOAUDIO_DataPool_Out_cwt_fooof_rerun.m)
-
+FOOOF with CWT:  gatherEEGLIMOAUDIO_DataPool_Out_cwt_fooof.m (was re-run for august revisions using: gatherEEGLIMOAUDIO_DataPool_Out_cwt_fooof_rerun.m)
+Welch's method: gatherEEGLIMOAUDIO_DataPool_Outdoor_Welsh.m
+FOOOF with Welch's method: gatherEEGLIMOAUDIO_DataPool_Out_welch_fooof_network_uploadCopy.m (run for august revisions)
 
 The following code was used for performng second level one-sample-t-tests (Level 2)  : gatherfollowupOnesample_cwt_outdoor
 
@@ -24,7 +25,7 @@ AEP results: create_figure_AEP
 Remaining individual figures: create_figure_other
 
 
-August 2022, Added the pre-processing steps: 
+#August 2022, Added the pre-processing steps: 
 
 1. Data filtering (0.1 to 70 Hz) and removing of bad channels according to impedence measurements (using getdataorganised.m, a multipurpose data organiser used within CODELAB)
 2. ICA was run using RUN_ICA.m
@@ -34,4 +35,4 @@ August 2022, Added the pre-processing steps:
 
 
 
-August 2022, Added the additional codes used for welch method: 
+August 2022, Added the additional codes used for welch method: Indicate above in brackets as 'august revisions'. 
