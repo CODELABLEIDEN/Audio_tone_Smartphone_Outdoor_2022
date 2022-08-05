@@ -25,7 +25,7 @@ AEP results: create_figure_AEP
 Remaining individual figures: create_figure_other
 
 
-#August 2022, Added the pre-processing steps: 
+# August 2022, Added the pre-processing steps: 
 
 1. Data filtering (0.1 to 70 Hz) and removing of bad channels according to impedence measurements (using getdataorganised.m, a multipurpose data organiser used within CODELAB)
 2. ICA was run using RUN_ICA.m
