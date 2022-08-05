@@ -13,7 +13,7 @@ The following code was used for creating LIMO files for ERP (Level 1) : gatherEE
 
 The following code was used for creating LIMO files based on CWT (Level 1) (note, can take time and high (>180 GB) RAM workstation recommended): 
 CWT alone:  gatherEEGLIMOAUDIO_DataPool_Indoor_Out_cwt_network
-FOOOF:  gatherEEGLIMOAUDIO_DataPool_Out_cwt_fooof
+FOOOF:  gatherEEGLIMOAUDIO_DataPool_Out_cwt_fooof (was re-run for august revisions using: gatherEEGLIMOAUDIO_DataPool_Out_cwt_fooof_rerun.m)
 
 
 The following code was used for performng second level one-sample-t-tests (Level 2)  : gatherfollowupOnesample_cwt_outdoor
