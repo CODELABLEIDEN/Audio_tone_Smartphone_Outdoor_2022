@@ -6,7 +6,7 @@ Auditory tones were created using: AudioTone.txt
 
 Dependencies for EEG analysis: EEGlab, LIMO EEG, FOOOF
 
-Prior to using the codes for ERP and CWT, the data was pre-procssed in the following manner:See methods section of the accompanying paper, inclduing the use og gettechnicallycleanedEEG.m
+Prior to using the codes for ERP and CWT, the data was pre-procssed in the following manner:See methods section of the accompanying paper, inclduing the use of gettechnicallycleanedEEG.m
 
 The following code was used for creating LIMO files for ERP (Level 1) : gatherEEGLIMOAUDIO_DataPool_Indoor_Out_ALLSubjects.m
 
